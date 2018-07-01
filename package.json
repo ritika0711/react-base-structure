@@ -2,10 +2,10 @@
   "name": "react-structure",
   "version": "1.0.0",
   "description": "",
-  "main": "./js/client.js",
+  "main": "./src/js/client.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --color --inline --hot",
+    "dev": "webpack-dev-server --color --inline --hot --content-base ./src",
     "build": "webpack --progress --colors"
   },
   "author": "Ritika Kumari",

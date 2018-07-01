@@ -4,9 +4,9 @@ module.exports = {
    entry: {
      app: './src/js/client.js'
    },
-   output: {
+   output: {    
      filename: 'client.min.js',
-     path: path.resolve('./src/')
+     path: path.resolve('./build')
    },
    devServer: {
       inline: true,
