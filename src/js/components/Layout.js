@@ -5,7 +5,8 @@ export default class Layout extends React.Component{
 		return(
 			<div>
 				Hello New Structure!
-				Git Added
+				Git Added,
+				Ritika Branch
 			</div>
 		)
 	}
